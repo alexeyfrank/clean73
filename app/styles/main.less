@@ -1,0 +1,86 @@
+@import "../bower_components/bootstrap/less/bootstrap.less";
+@icon-font-path: "../fonts/glyphicons/";
+
+@import "../bower_components/font-awesome/less/font-awesome.less";
+@fa-font-path: "../fonts/font-awesome";
+
+@import 'text.less';
+@import 'header.less';
+@import 'footer.less';
+
+.main-container {
+  min-height: 350px;
+  position: relative;
+
+  .social-links {
+    position: absolute;
+    left: -40px;
+  }
+
+  .f-right {
+    float: right;
+  }
+
+  .alert {
+    margin: 5px 0 5px 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 285px;
+    color: white;
+  }
+
+  .black-alert {
+    background: black;
+
+    .my-icon-callin {
+      background: url('../images/call-in.png');
+      display: block;
+      margin-right: 8px;
+      width: 48px;
+      height: 59px;
+    }
+
+    p {
+      line-height:20px;
+      font-size: 22px;
+      margin: 0 0 2px 0;
+    }
+
+    .phone {
+      margin-top: 7px;
+      font-size: 32px;
+
+      small {
+        font-size: 22px;
+      }
+    }
+  }
+
+  .blue-alert {
+    background: #068ddd;
+
+    h3 {
+      color: white;
+      font-size: 18px;
+      margin: 0 0 5px;
+    }
+
+    .my-icon-point {
+      background: url('../images/point.png');
+      display: block;
+      margin-right: 8px;
+      width: 17px;
+      height: 21px;
+    }
+  }
+}
+
+.online-order {
+  img {
+    width: 100%;
+  }
+}
+
+.vk-groups-widget {
+  margin-top: 15px;
+}
