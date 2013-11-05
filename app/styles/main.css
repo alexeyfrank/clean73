@@ -8840,6 +8840,18 @@ td.visible-print {
   border-radius: 0;
 }
 
+.content .well h3 {
+  color: #525867;
+}
+
+.content .red {
+  color: red;
+}
+
+.content .blue {
+  color: #525867;
+}
+
 header {
   width: 100%;
   height: 291px;
